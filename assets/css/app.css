@@ -185,3 +185,8 @@ body {
 .title-bar{
     background: gray;
 }
+
+.article.:active
+{
+    background:red;
+}
