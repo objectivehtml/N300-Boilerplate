@@ -186,7 +186,10 @@ body {
     background: gray;
 }
 
-.article.:active
-{
+.article.:active{
     background:red;
+}
+
+.nav a{
+    display:none;
 }
