@@ -177,3 +177,151 @@ body {
 /* -----------------------------------------
 	Footer
 ----------------------------------------- */
+
+.copy{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+.home-link i{
+
+}
+
+.article{
+    text-align: center;
+}
+
+.article a{
+    display: inline-block;
+    width: 50%;
+    margin: 1em;
+    padding: 1em;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+.article a:hover{
+    background:#c2cae5;
+}
+
+.article-thumbnail{
+    float: left;
+    padding: 0 1.3em 1.3em 0;
+}
+.icon-chevron-right{
+    position: relative;
+    top: -80px;
+    left: 240px;
+}
+
+.article-excerpt{
+    width: 80%;
+    text-align: left;
+}
+
+.article:active{
+}
+
+.nav{
+    margin-top: 0.5em;
+    background: #afc2d4;
+
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+
+}
+
+.nav a{
+    display:none;
+    font-size: 1.5em;
+    margin: 0.4em;
+}
+
+.nav a:hover{
+    color: gray;
+}
+
+.article-picture{
+    float: left;
+    margin: 0.5em 1em 0.5em;
+}
+
+.article-title{
+    margin-left: 0.5em;
+}
+
+.article-detail{
+    width: 80%;
+    margin-top: 4em;
+    margin-left: 7em;
+}
+.title-bar{
+    text-align: center;
+    background: #afc2d4;
+
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+
+.colin-ballast{
+    font-size: 5em;
+    padding: 0.5em;
+}
+
+.colin-ballast:hover{
+    color:gray;
+}
+.about-content{
+    text-align: center;
+}
+
+.about-content p{
+    width: 50%;
+    text-align: left;
+    margin-left: 25%;
+}
+
+.contact-content{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.menu_button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bfbfbf;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bfbfbf;
+	box-shadow:inset 0px 1px 0px 0px #bfbfbf;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c2c2c2), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #c2c2c2 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c2c2c2', endColorstr='#dfdfdf');
+	background-color:#c2c2c2;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:1px solid #858585;
+	display:inline-block;
+	color:#575757;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 28px;
+	text-decoration:none;
+	text-shadow:1px 3px 0px #c2bac2;
+}.menu_button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #c2c2c2) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #c2c2c2 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#c2c2c2');
+	background-color:#dfdfdf;
+}.menu_button:active {
+	position:relative;
+	top:1px;
+}
